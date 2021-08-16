@@ -917,6 +917,8 @@ class Room extends EventEmitter
 				// NOTE: Don't require that the Peer is joined here, so the client can
 				// initiate mediasoup Transports and be ready when he later joins.
 
+				// TODO: Turning off webrtc for this demo
+				return
 				const {
 					forceTcp,
 					producing,
